@@ -1,0 +1,99 @@
+// 
+// swiper-slider.scss
+// Vendor style override and new style added
+.swiper-button-next{
+  right: 0 !important;
+  &:after{
+    display: none !important;
+  }
+}
+.swiper-button-prev{
+  left: 0 !important;
+  &:after{
+    display: none !important;
+  }
+}
+
+
+.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled {
+  pointer-events: visible !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--#{$prefix}primary) !important;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+  background: var(--#{$prefix}primary) !important;
+}
+
+// Pagination style
+.swiper-pagination.swiper-pagination-primary{
+  .swiper-pagination-bullet{
+    background-color: var(--#{$prefix}gray-500) !important;
+    transition: width .3s ease-in-out, height .3s ease-in-out ,background-color .3s ease-in-out !important;
+    &.swiper-pagination-bullet-active{
+      background-color: var(--#{$prefix}primary) !important;
+      width: 20px !important;
+      border-radius: 5px !important;
+    }
+  }
+}
+
+// Pagination white
+.swiper-pagination.swiper-pagination-white{
+  .swiper-pagination-bullet{
+    background-color: $white !important;
+    opacity: .6 !important;
+    transition: width .3s ease-in-out, height .3s ease-in-out ,background-color .3s ease-in-out !important;
+    &.swiper-pagination-bullet-active{
+      background-color: $white !important;
+      width: 20px !important;
+      border-radius: 5px !important;
+      opacity: 1 !important;
+    }
+  }
+}
+
+// Slider pagination
+.swiper-pagination.swiper-pagination-line{
+  .swiper-pagination-bullet{
+    width: 30px !important;
+    height: 3px !important;
+    border-radius: 0 !important;
+    background-color: $white !important;
+  }
+}
+
+// Slider pagination progress primary
+.swiper-pagination.swiper-pagination-progress-primary{
+  background-color: var(--#{$prefix}border-color) !important;
+  .swiper-pagination-progressbar-fill{
+    background-color: var(--#{$prefix}primary) !important;
+  }
+}
+
+// Swiper negative
+.swiper-outside-end-n20 {
+  margin-right: -20vw !important;
+}
+@include media-breakpoint-down(md) {
+  .swiper-outside-end-n20 {
+    margin-right: 0 !important;
+  }
+}
+
+// Image scale
+.swiper-img-scale .scale-img{
+  transition: transform 5000ms linear 0s !important;
+}
+.swiper-img-scale .swiper-slide-active .scale-img{
+  transform: scale(1.07,1.07) !important;
+}
+
+.swiper-button-prev svg,
+.swiper-button-next svg {
+  width: unset !important;
+  height: unset !important;
+  object-fit: contain;
+  transform-origin: center;
+}

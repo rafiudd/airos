@@ -1,0 +1,18 @@
+.input_slot {
+  position: relative;
+
+  .cursor_wrapper {
+    position: absolute;
+    pointer-events: none;
+    inset: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cursor {
+    width: 1px;
+    height: 24px;
+    background-color: #fff;
+  }
+}
