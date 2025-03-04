@@ -1,18 +1,12 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 import LogoBox from '@/components/LogoBox'
 import AppMenu, { type AppMenuProps } from '@/components/topbar/AppMenu/page'
 import StickyHeader from '@/components/topbar/AppMenu/StickyHeader'
 import MobileNavbarToggler from '@/components/topbar/MobileNavbarToggler'
 import useToggle from '@/hooks/useToggle'
-import { buyLink } from '@/states/constants'
-import Link from 'next/link'
 import { Suspense, type ReactNode } from 'react'
-import { Button, Container, type ButtonProps } from 'react-bootstrap'
-import { BsPersonCircle } from 'react-icons/bs'
-import FloatingSearch from './FloatingSearch'
-import SearchInput from './SearchInput'
-import ShoppingCartOffcanvas from './ShoppingCartOffcanvas'
-import ThemeToggleDropdown from './ThemeToggleDropdown'
+import { Container, type ButtonProps } from 'react-bootstrap'
 
 type TopNavigationBarProps = {
   containerFluid?: boolean

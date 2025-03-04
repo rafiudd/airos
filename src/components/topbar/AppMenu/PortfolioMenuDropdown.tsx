@@ -1,13 +1,8 @@
-import { Card, CardBody, Col, Dropdown, DropdownToggle, Row } from 'react-bootstrap'
-import { BsArrowRight } from 'react-icons/bs'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { Dropdown, DropdownToggle } from 'react-bootstrap'
 import { getActiveClass } from '@/helpers/menu'
-import { FaAngleDown } from 'react-icons/fa6'
 import type { MenuItemType } from '@/types/menu'
 
-import portfolioList1Img from '@/assets/images/portfolio/list/01.jpg'
-import portfolioList2Img from '@/assets/images/portfolio/list/02.jpg'
-import Image from 'next/image'
-import Link from 'next/link'
 
 type PortfolioMenuDropdownProps = {
   menuItems: MenuItemType[]

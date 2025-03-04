@@ -1,10 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { getActiveClass } from '@/helpers/menu'
 import type { MenuItemType } from '@/types/menu'
 import Link from 'next/link'
 import { Fragment } from 'react'
 import { Dropdown, DropdownItem, DropdownToggle } from 'react-bootstrap'
-import { BsCardText, BsLifePreserver } from 'react-icons/bs'
-import { FaAngleDown, FaChevronRight } from 'react-icons/fa6'
+import { FaChevronRight } from 'react-icons/fa6'
 
 type PagesMenuDropdownProps = {
   menuItems: MenuItemType[]
