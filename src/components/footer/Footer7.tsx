@@ -15,7 +15,7 @@ const Footer7 = () => {
                 <LogoBox imageClassName="h-60px" />
 
                 <p className="mt-4">
-                  A Bootstrap theme that&apos;s both stylish and functional, perfect for any type of technology or corporate <br /> website.
+                  AiROS adalah pilihan terbaik untuk air minum yang murni dan berkualitas tinggi. 
                 </p>
 
                 <ul className="nav justify-content-center mt-4 mt-md-0">
@@ -43,7 +43,7 @@ const Footer7 = () => {
 
                 <div className="text-body mt-4">
                   
-                  Copyrights ©{currentYear} Mizzle. Build by
+                  Copyrights ©{currentYear} Build by 
                   <Link href={developedByLink} target="_blank" className="text-body text-primary-hover">
                     {developedBy}
                   </Link>

@@ -2,7 +2,6 @@ import React from 'react'
 import RelatedWorksSwiper from './components/RelatedWorksSwiper'
 import Footer1 from '@/components/footer/Footer1'
 import { Col, Container, Row } from 'react-bootstrap'
-import PageBreadcrumb from '@/components/PageBreadcrumb'
 import Image from 'next/image'
 import { BsArrowLeft, BsArrowRight, BsBoxArrowUpRight, BsGrid3X3GapFill, BsQuote } from 'react-icons/bs'
 import Link from 'next/link'
@@ -22,52 +21,16 @@ const casestydyv2 = () => {
       <main>
         <section className="pt-xl-9">
           <Container className="pt-4 pt-xl-0 position-relative z-index-2">
-            <div className="d-flex position-relative mb-2">
-              <PageBreadcrumb breadcrumbClassName="pb-0 mb-0" items={['Home', 'Portfolio', 'Portfolio case studies v2']} />
-            </div>
-            <h1 className="h2 mb-4 mb-sm-6">Website Optimization for TechWave</h1>
+            <h1 className="h2 mb-4 mb-sm-6 text-center">AiROS, Murni Lebih Baik</h1>
             <Row className="justify-content-lg-end justify-content-center flex-lg-nowrap mb-7">
               <Col xs={12} className="d-flex mb-5 mb-sm-6 mb-lg-0">
                 <Image src={caseStudy2} className="rounded" alt="portfolio-img" />
               </Col>
               <Col lg={5} className="ps-lg-6">
-                <h4 className="mb-4">Overview</h4>
+                <h4 className="mb-4">Mengapa AiROS Lebih Baik?</h4>
                 <p className="mb-4">
-                  In affronting unreserved delightful simplicity ye. Law own advantage furniture continual sweetness bed agreeable perpetual. Oh song
-                  well four only head busy it. Afford son she had lively living.
+                AiROS adalah pilihan terbaik untuk air minum yang murni dan berkualitas tinggi. Dengan proses demineralisasi yang memastikan tidak ada mineral atau zat kontaminan yang tertinggal, AiROS memberikan Anda air yang benar-benar bersih dan aman. Proses reverse osmosis yang digunakan juga menjaga rasa alami air, sehingga setiap tegukan terasa segar dan jernih. AiROS adalah solusi ideal untuk Anda yang mengutamakan kesehatan dan kebersihan dalam konsumsi air sehari-hari.
                 </p>
-                <table className="table table-borderless mb-4">
-                  <tbody>
-                    <tr>
-                      <th scope="row" className="heading-color px-0 py-2">
-                        Client:
-                      </th>
-                      <td className="px-0 py-2">Allen Smith</td>
-                    </tr>
-                    <tr>
-                      <th scope="row" className="heading-color px-0 py-2">
-                        Manager:
-                      </th>
-                      <td className="px-0 py-2">Emma Watson, Maria Smith</td>
-                    </tr>
-                    <tr>
-                      <th scope="row" className="heading-color px-0 py-2">
-                        Category:
-                      </th>
-                      <td className="px-0 py-2">Interior design</td>
-                    </tr>
-                    <tr>
-                      <th scope="row" className="heading-color px-0 py-2">
-                        Awards:
-                      </th>
-                      <td className="px-0 py-2">
-                        <span className="d-block"> Pineapple Award Design</span>
-                        <span className="d-block mt-2"> Project of the Year </span>
-                        <span className="d-block mt-2"> Designer of the Year</span>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
                 <Link href="" className="btn btn-dark mb-0 icons-center">
                   View project website
                   <BsBoxArrowUpRight className="ms-2" />
@@ -76,15 +39,11 @@ const casestydyv2 = () => {
             </Row>
             <Row className="mb-6">
               <Col md={4}>
-                <h4>01. The Challenge</h4>
+                <h4>AiRES: Es Kristal Demineral</h4>
               </Col>
               <Col md={7} className="ms-auto">
                 <p>
-                  <span className="dropcap fs-2 heading-color bg-light rounded px-2">T</span>he simple act of cultivating gratitude has the remarkable
-                  ability to bring joy and abundance into our lives, shifting our perspective from lack to abundance. In this article, we will explore
-                  the power of gratitude and how it can enhance our overall well-being and create a positive ripple effect in our lives and the lives
-                  of those around us. <strong>In a world filled with chaos</strong> and uncertainty, it&apos;s easy to lose sight of the things that truly
-                  matter.
+                  AiRES diproduksi dengan mesin teknologi terbaru reverse osmosis menggunakan membran sampai dengan pori-pori 0,0001 mikron sehingga menghasilkan air murni (demineral) yang higienis untuk ahan baku es kristal dengan kualitas terbaik.
                 </p>
                 <p className="mb-0">
                   Once an idea takes root, it requires nurturing and refinement. This stage involves research, brainstorming, and gathering feedback.

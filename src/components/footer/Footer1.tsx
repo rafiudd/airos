@@ -24,7 +24,7 @@ const Footer1 = () => {
             <LogoBox imageClassName="h-40px" className="me-0" />
 
             <p className="mt-4 mb-2">
-              A Bootstrap theme that&apos;s both stylish and functional, perfect for any type of technology or corporate website.
+              AiROS adalah pilihan terbaik untuk air minum yang murni dan berkualitas tinggi. 
             </p>
           </Col>
           <Col lg={8} xxl={7}>

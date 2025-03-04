@@ -7,7 +7,7 @@ const CreditWithLanguage = () => {
     <div className="d-md-flex justify-content-between align-items-center text-center text-lg-start py-4">
       <div className="text-body">
         
-        Copyrights ©{currentYear} Mizzle. Build by
+        Copyrights ©{currentYear} Build by 
         <Link href={developedByLink} className="text-body text-primary-hover" target="_blank">
           {developedBy}
         </Link>

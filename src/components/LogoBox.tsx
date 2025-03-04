@@ -1,5 +1,5 @@
 import { NavbarBrand } from 'react-bootstrap'
-import logoLight from '@/assets/images/logo-light.svg'
+import logoLight from '@/assets/images/logo.png'
 import logo from '@/assets/images/logo.png'
 import logoSmall from '@/assets/images/logo-icon.svg'
 import Image from 'next/image'
@@ -17,7 +17,7 @@ const LogoBox = ({ className, smallIcon, imageClassName }: LogoBoxProps) => {
   ) : (
     <NavbarBrand as={Link} className={className ?? ''} href="">
       <Image className={`light-mode-item h-40px ${imageClassName ?? ''} `} src={logo} alt="logo" width={96} height={40} />
-      <Image className={`dark-mode-item h-40px ${imageClassName ?? ''}`} src={logoLight} alt="logo" width={119} height={40} />
+      <Image className={`dark-mode-item h-40px ${imageClassName ?? ''}`} src={logoLight} alt="logo" width={96} height={40} />
     </NavbarBrand>
   )
 }

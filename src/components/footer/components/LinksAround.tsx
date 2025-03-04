@@ -9,7 +9,7 @@ const LinksAround = () => {
       <Col lg={5}>
         <LogoBox imageClassName="h-40px" />
 
-        <p className="mt-4 mb-2">A Bootstrap theme that&apos;s both stylish and functional, perfect for any type of technology or corporate website.</p>
+        <p className="mt-4 mb-2">AiROS adalah pilihan terbaik untuk air minum yang murni dan berkualitas tinggi. </p>
         <ul className="list-inline mb-0 mt-4">
           {socialMediaLinks.map((item, idx) => {
             const Icon = item.icon

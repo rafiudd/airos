@@ -39,25 +39,8 @@ export const quickLinks: FooterLinkType[] = [
     link: '/contact/v1',
   },
   {
-    name: 'Career',
-    link: '/career',
-    badge: '2 Job',
-  },
-  {
-    name: 'Career detail',
-    link: '/career/single',
-  },
-  {
     name: 'Become a partner',
     link: '/contact/v1',
-  },
-  {
-    name: 'Sign in',
-    link: '/auth/sign-in',
-  },
-  {
-    name: 'Sign up',
-    link: '/auth/sign-up',
   },
 ]
 
@@ -144,13 +127,6 @@ export const quickLinks4: FooterLinkType[] = [
 
 export const communityLinks: FooterLinkType[] = [
   {
-    name: 'Documents',
-  },
-  {
-    name: 'Supports',
-    icon: BsBoxArrowUpRight,
-  },
-  {
     name: 'Faqs',
     link: '/other-pages/faqs',
   },
@@ -160,10 +136,6 @@ export const communityLinks: FooterLinkType[] = [
   {
     name: 'News and blogs',
     link: '/blog/grid',
-  },
-  {
-    name: 'Terms & condition',
-    link: '/other-pages/terms-conditions',
   },
 ]
 

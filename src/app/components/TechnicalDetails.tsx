@@ -1,4 +1,4 @@
-import product2 from '@/assets/images/products/02.png'
+import product2 from '@/assets/images/products/hero-img.png'
 import { BsVolumeUp, BsRulers, BsSoundwave, BsBoxSeam, BsBatteryCharging, BsFingerprint } from 'react-icons/bs'
 import { Col, Container, Row } from 'react-bootstrap'
 import Image from 'next/image'

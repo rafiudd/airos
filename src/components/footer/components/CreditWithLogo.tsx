@@ -8,7 +8,7 @@ const CreditWithLogo = () => {
       <LogoBox imageClassName="h-40px" />
       <div className="text-body mt-3 mt-md-0">
         
-        Copyrights ©{currentYear} Mizzle. Build by
+        Copyrights ©{currentYear} Build by 
         <Link href={developedByLink} target="_blank" className="text-body text-primary-hover">
           {developedBy}
         </Link>
