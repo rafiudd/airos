@@ -7,7 +7,7 @@ import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 const page = () => {
   return (
     <>
-           <TopNavigationBar
+      <TopNavigationBar
         menuProps={{
           ulClassName: 'ms-auto',
           showContactUs: true,

@@ -8,12 +8,11 @@ const page = () => {
     <>
       <TopNavigationBar
         menuProps={{
+          ulClassName: 'ms-auto',
           showContactUs: true,
           showDocs: true,
-          ulClassName: 'mx-auto',
         }}
-        showSignUp
-        showBuyNow
+        darkButton={{ text: 'Buy Now!', size: 'sm' }}
       />
       <BlogDetails />
       <Footer1 />
