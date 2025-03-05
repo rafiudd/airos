@@ -3,11 +3,8 @@ import Footer6 from '@/components/footer/Footer6'
 import Hero from './components/Hero'
 import TechnicalDetails from './components/TechnicalDetails'
 import Features1 from './components/Features1'
-import ProductImage from './components/ProductImage'
-import Features2 from './components/Features2'
 import ProductsList from './components/ProductsList'
 import ProductVideo from './components/ProductVideo'
-import Testimonials from './components/Testimonials'
 
 import React from 'react'
 

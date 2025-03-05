@@ -1,5 +1,5 @@
 import type { IconType } from 'react-icons'
-import { BsBoxArrowUpRight, BsEnvelope, BsFileEarmarkTextFill, BsGeoAlt, BsPuzzleFill, BsStickiesFill, BsTelephone } from 'react-icons/bs'
+import { BsEnvelope, BsFileEarmarkTextFill, BsGeoAlt, BsPuzzleFill, BsStickiesFill, BsTelephone } from 'react-icons/bs'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa6'
 
 import flagUK from '@/assets/images/flags/uk.svg'

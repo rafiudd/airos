@@ -1,7 +1,5 @@
 import { ProductType } from '@/types/shop'
 import { Card, CardBody, CardTitle } from 'react-bootstrap'
-import { currency } from '@/states/constants'
-import { getDiscountedPrice } from '@/helpers/products'
 import Image from 'next/image'
 import Link from 'next/link'
 

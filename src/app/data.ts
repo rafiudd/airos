@@ -2,8 +2,6 @@ import { BsEarbuds, BsFire, BsPatchCheckFill, BsShieldFillCheck, BsTruck } from 
 import { ProductType } from '@/types/shop'
 
 import product3 from '@/assets/images/products/airos-500.png'
-import product4 from '@/assets/images/products/04.png'
-import product5 from '@/assets/images/products/05.png'
 import { FeatureType } from './types'
 
 export const features: FeatureType[] = [
