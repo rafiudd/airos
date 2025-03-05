@@ -1,4 +1,4 @@
-import { BsDribbble, BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs'
+import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs'
 import type { FollowUsType, LocationType, WorkType } from './types'
 import webflowImg from '@/assets/images/elements/webflow.svg'
 import bootstrapImg from '@/assets/images/elements/bootstrap.svg'

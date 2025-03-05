@@ -1,6 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
-import { getDiscountedPrice } from "@/helpers/products";
-import { currency } from "@/states/constants";
 import { useShoppingContext } from "@/states/useShoppingContext";
 import type { ProductType } from "@/types/shop";
 import { toSentenceCase } from "@/utils/change-casing";
@@ -13,7 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from "react-bootstrap";
-import { BsCart, BsHeart, BsHeartFill, BsTrash } from "react-icons/bs";
+import { BsHeart, BsHeartFill } from "react-icons/bs";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar, FaStar } from "react-icons/fa6";
 

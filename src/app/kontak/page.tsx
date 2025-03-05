@@ -1,7 +1,5 @@
 import React from 'react'
 import Hero from './components/Hero'
-import Work from './components/Work'
-import OfficeLocation from './components/OfficeLocation'
 import Footer1 from '@/components/footer/Footer6'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 

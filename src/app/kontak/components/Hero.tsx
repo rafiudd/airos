@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link'
 import { followUsIcons } from '../data'
-import Clients from './Clients'
 import ContactForm from './ContactForm'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 

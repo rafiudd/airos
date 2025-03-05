@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 import PageBreadcrumb from '@/components/PageBreadcrumb'
 import useToggle from '@/hooks/useToggle'
@@ -15,7 +16,7 @@ import Footer8 from '@/components/footer/Footer6'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
 const ShopGrid = () => {
-  const { isTrue: showFilter, toggle: toggleFilter } = useToggle()
+  const { toggle: toggleFilter } = useToggle()
   const { width } = useViewPort()
   return (
     <>
