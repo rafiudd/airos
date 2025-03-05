@@ -19,7 +19,7 @@ const ContactForm = () => {
     resolver: yupResolver(contactFormSchema),
   })
 
-  const onSubmit = (data) => {
+  const onSubmit = (data: any) => {
     const { name, email, phoneNo, company, message } = data
     const companyText = company ? ` dari ${company}` : ''
     
