@@ -13,7 +13,7 @@ const Hero = () => {
             <h4 className="mb-4" style={{color: 'grey'}}>
               Air mineral alami berkualitas tinggi, langsung dari sumber alam terbaik.
             </h4>
-            <Link href="" className="btn btn-lg btn-primary mb-0">
+            <Link href="/store" className="btn btn-lg btn-primary mb-0">
               Beli Sekarang
             </Link>
           </Col>

@@ -31,16 +31,16 @@ type ContactType = {
 
 export const quickLinks: FooterLinkType[] = [
   {
-    name: 'About us',
-    link: '/about/v1',
+    name: 'Store',
+    link: '/store',
   },
   {
-    name: 'Contact us',
-    link: '/contact/v1',
+    name: 'Kemitraan',
+    link: '/kemitraan',
   },
   {
-    name: 'Become a partner',
-    link: '/contact/v1',
+    name: 'Hubungi Kami',
+    link: '/kontak',
   },
 ]
 
@@ -128,14 +128,14 @@ export const quickLinks4: FooterLinkType[] = [
 export const communityLinks: FooterLinkType[] = [
   {
     name: 'Faqs',
-    link: '/other-pages/faqs',
+    link: '#',
   },
   {
-    name: 'Privacy Policy',
+    name: 'Syarat dan Ketentuan',
   },
   {
-    name: 'News and blogs',
-    link: '/blog/grid',
+    name: 'Artikel',
+    link: '/artikel',
   },
 ]
 

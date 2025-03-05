@@ -6,7 +6,7 @@ export const currentYear = new Date().getFullYear()
 
 export const developedByLink = 'https://satuvisiraya.com/'
 
-export const developedBy = 'Satu Visi Raya'
+export const developedBy = ' Satu Visi Raya'
 
 export const buyLink = ''
 

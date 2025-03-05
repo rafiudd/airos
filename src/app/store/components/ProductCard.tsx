@@ -80,7 +80,7 @@ const ProductCard = ({ product }: { product: ProductType }) => {
       </CardBody>
 
       <CardFooter className="bg-transparent d-flex justify-content-between align-items-center pt-0">
-        {sale ? (
+        {/* {sale ? (
           <>
             <div className="d-flex align-items-center gap-2 justify-content-center">
               <p className="fw-bold text-success mb-0">
@@ -113,7 +113,11 @@ const ProductCard = ({ product }: { product: ProductType }) => {
           >
             <BsCart />
           </button>
-        )}
+        )} */}
+        <a href="http://wa.me/6285741892603?text=Saya tertarik dengan produk AiROS" target="_blank" rel="noopener noreferrer">
+        <button className="btn btn-dark mb-0 z-index-2">
+            Beli Sekarang
+        </button></a>
       </CardFooter>
     </Card>
   );

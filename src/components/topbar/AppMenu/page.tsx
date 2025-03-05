@@ -91,7 +91,7 @@ const AppMenu = ({ mobileMenuOpen, ulClassName, showMegaMenu, showResourceMenu, 
 
           {showContactUs && (
             <li className="nav-item">
-              <Link className="nav-link" href="/contact/v1">
+              <Link className="nav-link" href="/kontak">
                 Hubungi Kami
               </Link>
             </li>

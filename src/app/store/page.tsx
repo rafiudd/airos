@@ -11,7 +11,7 @@ import Link from 'next/link'
 import { Fragment } from 'react'
 import { BsSearch } from 'react-icons/bs'
 import backgroundImg5 from '@/assets/images/shop/bg/05.jpg'
-import Footer8 from '@/components/footer/Footer8'
+import Footer8 from '@/components/footer/Footer6'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
 const ShopGrid = () => {
@@ -19,20 +19,25 @@ const ShopGrid = () => {
   const { width } = useViewPort()
   return (
     <>
-      <TopNavigationBar showSearchInput showShoppingCart menuProps={{ showContactUs: true, ulClassName: 'ms-xl-5' }} />
-
+      <TopNavigationBar
+        menuProps={{
+          ulClassName: 'ms-auto',
+          showContactUs: true,
+          showDocs: true,
+        }}
+        darkButton={{ text: 'Buy Now!', size: 'sm' }}
+      />
       <main>
       <section className="pb-5 pb-sm-7">
         <Container>
-          <PageBreadcrumb items={['Home', 'Shop', 'All Products']} breadcrumbClassName="pb-0 mb-0" />
-          <h1 className="h3 mb-0 mt-3">Search items</h1>
+          <h1 className="h3 mb-0 mt-3">AiROS Store</h1>
         </Container>
       </section>
 
       <section className="pt-0">
         <Container>
           <Row>
-            <Col xl={3} as={'aside'}> 
+            {/* <Col xl={3} as={'aside'}> 
               {width < 1200 ? (
                 <Offcanvas
                   show={showFilter}
@@ -52,9 +57,9 @@ const ShopGrid = () => {
               ) : (
                 <VerticalProductFilter />
               )}
-            </Col>
+            </Col> */}
 
-            <Col xl={9} className="ps-xl-6">
+            <Col xl={12} className="">
               <Row as={Form} className="g-2 g-xl-4 mb-4">
                 <Col md={6}>
                   <div className="rounded position-relative">
@@ -113,7 +118,7 @@ const ShopGrid = () => {
                 })}
               </Row>
 
-              <ul className="pagination pagination-primary-soft d-flex justify-content-end mb-0 mt-5">
+              {/* <ul className="pagination pagination-primary-soft d-flex justify-content-end mb-0 mt-5">
                 <li>
                   <ul className="list-unstyled">
                     <li className="page-item disabled">
@@ -148,7 +153,7 @@ const ShopGrid = () => {
                     </li>
                   </ul>
                 </li>
-              </ul>
+              </ul> */}
             </Col>
           </Row>
         </Container>

@@ -13,10 +13,10 @@ const PortfolioMenuDropdown = ({ menuItems, activeMenuItems }: PortfolioMenuDrop
   return (
     <Dropdown className="nav-item dropdown">
       <DropdownToggle
-        href="/brand"
+        href="/kemitraan"
         variant="link"
         className={`nav-link mb-0 arrow-none d-flex w-100 justify-content-between align-items-center dropdown-toggle${getActiveClass(activeMenuItems, 'portfolio')}`}>
-        Brand
+        Kemitraan
       </DropdownToggle>
     </Dropdown>
   )

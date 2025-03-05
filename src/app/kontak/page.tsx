@@ -1,22 +1,27 @@
 import React from 'react'
 import Hero from './components/Hero'
-import Blogs from './components/Blogs'
+import Work from './components/Work'
+import OfficeLocation from './components/OfficeLocation'
 import Footer1 from '@/components/footer/Footer6'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
 const page = () => {
   return (
     <>
-           <TopNavigationBar
+      <TopNavigationBar
         menuProps={{
-          ulClassName: 'ms-auto',
           showContactUs: true,
           showDocs: true,
+          ulClassName: 'mx-auto',
         }}
-        darkButton={{ text: 'Buy Now!', size: 'sm' }}
+        showSignUp
+        showBuyNow
       />
-      <Hero />
-      <Blogs />
+      <main>
+        <Hero />
+        {/* <Work />
+        <OfficeLocation /> */}
+      </main>
       <Footer1 />
     </>
   )
