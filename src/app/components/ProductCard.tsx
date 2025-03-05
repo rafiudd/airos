@@ -8,12 +8,12 @@ import Link from 'next/link'
 const ProductCard = ({ product }: { product: ProductType }) => {
   return (
     <Card className="bg-transparent text-center p-0">
-      {product.images[0] && <Image src={product.images[0]} className="px-5" alt="product-img" />}
+      {product.images[0] && <Image style={{width: '100%'}} src={product.images[0]} className="px-5" alt="product-img" />}
       <CardBody className="p-0 mt-3">
         <CardTitle as={'h6'} className="mb-3">
           <Link href="">{product.name}</Link>
         </CardTitle>
-        {product.sale ? (
+        {/* {product.sale ? (
           <div className="d-flex align-items-center justify-content-center mb-3">
             <h6 className="fw-normal mb-0 me-1">
               {currency}
@@ -28,10 +28,10 @@ const ProductCard = ({ product }: { product: ProductType }) => {
             {currency}
             {product.price}
           </h6>
-        )}
+        )} */}
 
         <Link href={product.url ?? '/shop/grid'} className="btn btn-sm btn-primary mb-0">
-          Buy now
+          Beli Sekarang
         </Link>
       </CardBody>
     </Card>

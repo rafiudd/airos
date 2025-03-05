@@ -26,11 +26,11 @@ const page = () => {
         <Hero />
         <TechnicalDetails />
         <Features1 />
-        <ProductImage />
-        <Features2 />
+        {/* <ProductImage /> */}
+        {/* <Features2 /> */}
         <ProductsList />
         <ProductVideo />
-        <Testimonials />
+        {/* <Testimonials /> */}
       </main>
       <Footer6 />
     </>

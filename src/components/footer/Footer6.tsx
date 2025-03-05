@@ -14,7 +14,7 @@ const Footer6 = () => {
               <BsCursor size={29} />
             </div>
             <div className="ms-md-4 my-4 my-md-0">
-              <h5>Join our awesome community!</h5>
+              <h5>Bergabung dengan AiROS!</h5>
               <p className="mb-0">Share work, seek support, vote on components, stay updated and network with others.</p>
             </div>
             <Link href="" className="btn btn-white mb-0 ms-auto flex-shrink-0">

@@ -6,19 +6,10 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <section className="bg-light position-relative overflow-hidden">
-      <div className="text-end position-absolute top-0 end-0 mt-md-6 me-n4">
-        <h6 className="mb-0" style={{ fontSize: '350px', opacity: 0.03 }}>
-          AiR
-        </h6>
-        <h6 className="mb-0" style={{ fontSize: '350px', opacity: 0.03 }}>
-          AiROS
-        </h6>
-      </div>
-
       <Container className="position-relative pt-6">
         <Row>
-          <Col lg={7} className="mb-6 mb-lg-0">
-            <h1 className="display-4 lh-base mb-4">Segarkan Harimu dengan AiROS</h1>
+          <Col lg={6} className="mb-6 mb-lg-0">
+            <h1 className="display-4 mb-4">Segarkan Harimu dengan AiROS</h1>
             <h4 className="mb-4" style={{color: 'grey'}}>
               Air mineral alami berkualitas tinggi, langsung dari sumber alam terbaik.
             </h4>
@@ -27,8 +18,8 @@ const Hero = () => {
             </Link>
           </Col>
 
-          <Col sm={10} lg={5} className="position-relative px-5 mx-auto">
-            <Image height={'500'} src={heroProduct} alt="hero-img" />
+          <Col sm={10} lg={6} className="position-relative px-5 mx-auto">
+            <Image height={'800'} src={heroProduct} alt="hero-img" />
 
             {/* <div className="position-absolute top-0 start-0">
               <div className="position-relative">

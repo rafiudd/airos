@@ -34,7 +34,7 @@ const ProductsList = () => {
       <Container>
         <Row className="g-4">
           <Col md={4}>
-            <h2 className="text-center text-md-start">The perfect Airpods that suit you</h2>
+            <h2 className="text-center text-md-start">Fresh Vibes Pure Energy</h2>
 
             <div className="d-flex justify-content-center justify-content-md-start gap-3 position-relative mt-5 mt-md-6">
               <Link href="" className="btn btn-dark btn-icon rounded-circle mb-0 swiper-button-prev" >
