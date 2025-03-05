@@ -12,7 +12,6 @@ const page = () => {
     <>
       <TopNavigationBar
         data-bs-theme="dark"
-
         menuProps={{
           ulClassName: 'ms-auto',
           showContactUs: true,

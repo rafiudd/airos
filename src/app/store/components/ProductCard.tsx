@@ -113,7 +113,7 @@ const ProductCard = ({ product }: { product: ProductType }) => {
             <BsCart />
           </button>
         )} */}
-        <a href="http://wa.me/6285741892603?text=Saya tertarik dengan produk AiROS" target="_blank" rel="noopener noreferrer">
+        <a href="http://wa.me/628112998881?text=Saya tertarik dengan produk AiROS" target="_blank" rel="noopener noreferrer">
         <button className="btn btn-dark mb-0 z-index-2">
             Beli Sekarang
         </button></a>

@@ -24,7 +24,7 @@ const Features1 = () => {
                   )
                 })}
               </ul>
-              <Link href="https://wa.me/6285741892603?text=Saya tertarik dengan kemitraan Airos" className="btn btn-dark mb-0">
+              <Link href="https://wa.me/628112998881?text=Saya tertarik dengan kemitraan Airos" className="btn btn-dark mb-0">
                 Hubungi Kami
               </Link>
             </Card>

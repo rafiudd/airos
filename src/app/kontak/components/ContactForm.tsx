@@ -25,7 +25,7 @@ const ContactForm = () => {
     
     const text = `Halo, saya ${name}${companyText}. Saya ingin mendiskusikan ${message}. Anda dapat menghubungi saya melalui WhatsApp di ${phoneNo} atau melalui email di ${email}. Saya menantikan tanggapan Anda. Terima kasih.`
 
-    const whatsappURL = `https://wa.me/6285741892603?text=${encodeURIComponent(text)}`
+    const whatsappURL = `https://wa.me/628112998881?text=${encodeURIComponent(text)}`
 
     window.open(whatsappURL, '_blank')
   }

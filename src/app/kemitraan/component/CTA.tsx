@@ -27,7 +27,7 @@ const CTA = () => {
               <h5 className="mb-0">Jadilah Bagian dari AIROS Sekarang!</h5>
             </Col>
             <Col md={5} className="text-md-end">
-              <Link href="https://wa.me/6285741892603?text=Saya%20tertarik%20dengan%20kemitraan%20Airos" className="btn btn-dark mb-0">
+              <Link href="https://wa.me/628112998881?text=Saya%20tertarik%20dengan%20kemitraan%20Airos" className="btn btn-dark mb-0">
                 Hubungi Kami
               </Link>
             </Col>

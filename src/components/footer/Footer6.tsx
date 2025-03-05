@@ -17,7 +17,7 @@ const Footer6 = () => {
               <h5>Bergabung dengan AiROS</h5>
               <p className="mb-0">Siap tumbuh bersama AIROS? Hubungi kami sekarang!</p>
             </div>
-            <Link href="https://wa.me/6285741892603?text=Saya%20tertarik%20dengan%20produk%20AiROS" className="btn btn-white mb-0 ms-auto flex-shrink-0">
+            <Link href="https://wa.me/628112998881?text=Saya%20tertarik%20dengan%20produk%20AiROS" className="btn btn-white mb-0 ms-auto flex-shrink-0">
               Hubungi Kami
             </Link>
           </div>

@@ -17,7 +17,7 @@ const Hero = () => {
             </p>
           </Col>
           <Col md={2} className="ms-auto text-md-end">
-            <Link href="https://wa.me/6285741892603?text=Saya tertarik dengan kemitraan Airos" className="btn btn-lg btn-primary mb-6 mb-md-0">
+            <Link href="https://wa.me/628112998881?text=Saya tertarik dengan kemitraan Airos" className="btn btn-lg btn-primary mb-6 mb-md-0">
               Daftar Sekarang
             </Link>
           </Col>
