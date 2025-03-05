@@ -1,6 +1,5 @@
 import React from 'react'
 import BlogDetails from './components/BlogDetails'
-import RelatedBlogs from './components/RelatedBlogs'
 import Footer1 from '@/components/footer/Footer1'
 import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 
@@ -17,7 +16,6 @@ const page = () => {
         showBuyNow
       />
       <BlogDetails />
-      <RelatedBlogs />
       <Footer1 />
     </>
   )

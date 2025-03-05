@@ -27,7 +27,7 @@ const Blogs = () => {
     <section className="pt-0">
       <Container>
         <div className="d-lg-flex justify-content-between align-items-center">
-          <h4 className="mb-3 mb-lg-0">Our Blog</h4>
+          <h4 className="mb-3 mb-lg-0">Artikel AiROS</h4>
           <Nav defaultActiveKey={'0'} className="nav-pills gap-1 nav-pills-light">
             <NavItem>
               <NavLink eventKey={'0'}>All blog</NavLink>
