@@ -4,10 +4,8 @@ import { Autoplay, Navigation } from 'swiper/modules'
 import type { SwiperOptions } from 'swiper/types'
 
 import { Col, Container, Row } from 'react-bootstrap'
-import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 import { products } from '../data'
 import ProductCard from './ProductCard'
-import Link from 'next/link'
 import 'swiper/css'
 
 const ProductsList = () => {
@@ -35,15 +33,6 @@ const ProductsList = () => {
         <Row className="g-4">
           <Col md={4}>
             <h2 className="text-center text-md-start">Fresh Vibes Pure Energy</h2>
-
-            <div className="d-flex justify-content-center justify-content-md-start gap-3 position-relative mt-5 mt-md-6">
-              <Link href="" className="btn btn-dark btn-icon rounded-circle mb-0 swiper-button-prev" >
-                <BsArrowLeft  />
-              </Link>
-              <Link href="" className="btn btn-dark btn-icon rounded-circle mb-0 swiper-button-next">
-                <BsArrowRight />
-              </Link>
-            </div>
           </Col>
 
           <Col md={8}>

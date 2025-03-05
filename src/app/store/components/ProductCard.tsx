@@ -49,7 +49,7 @@ const ProductCard = ({ product }: { product: ProductType }) => {
 
       <CardBody className="pb-0">
         <CardTitle as={"h6"}>
-          <Link href={`/shop/single/${id}`} className="stretched-link">
+          <Link href='https://wa.me/628112998881?text=Saya tertarik dengan produk AiROS' className="stretched-link">
             {name}
           </Link>
         </CardTitle>
@@ -113,7 +113,7 @@ const ProductCard = ({ product }: { product: ProductType }) => {
             <BsCart />
           </button>
         )} */}
-        <a href="http://wa.me/628112998881?text=Saya tertarik dengan produk AiROS" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/628112998881?text=Saya tertarik dengan produk AiROS" target="_blank" rel="noopener noreferrer">
         <button className="btn btn-dark mb-0 z-index-2">
             Beli Sekarang
         </button></a>
